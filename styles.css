@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto';
+}
+
+.frame {
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 768px;
+    background: #FFFFFF;
+}
+
+.frame__form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background: #F7F5F9;
+    border-radius: 12px;
+    height: 392px;
+    width: 481px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 24px;
+    color: #3B3D43;
+}
+
+input {
+    text-indent: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    color: #d6d0db;
+    margin-top: 26px;
+    margin-left: 40px;
+    height: 45px;
+    width: 401px;
+    border-radius: 6px;
+    border: 0;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+}
+
+::placeholder {
+    text-indent: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    color: #d6d0db;
+}
+
+input:hover {
+    margin-top: 24px;
+    border: 1px solid #854FC8;
+}
+
+input:focus {
+    margin-top: 24px;
+    border: 1px solid #854FC8;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
+
+#submit {
+    text-indent: 0;
+    margin-top: 25px;
+    margin-left: 40px;
+    height: 48px;
+    width: 401px;
+    border-radius: 6px;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+    background: #6979F8;
+}

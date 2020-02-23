@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <title>Test_Yashin</title>
+</head>
+
+<body>
+    <div class="frame">
+        <form action="https://digital-spectr.com/ac/academy.php" method="POST" enctype="text/plain" autocomplete="on" class="frame__form">
+            <p>Задать вопрос</p>
+            <label for="username"></label>
+            <input type="text" placeholder="Фамилия Имя Отчество *" required autocomplete="on" name="name" pattern="[а-яёА-ЯЁ  -]+" id="username">
+            <label for="phone"></label>
+            <input type="tel" placeholder="Телефон *" required autocomplete="on" name="phone" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" maxlength="18" id="phone">
+            <label for="Email"></label>
+            <input type="email" placeholder="Email" autocomplete="on" name="email" id="email">
+            <input type="submit" id="submit" value="ОТПРАВИТЬ ЗАПРОС">
+        </form>
+    </div>
+</body>
+
+</html>
